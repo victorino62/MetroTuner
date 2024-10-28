@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6AE082E2CCFE17A004A6808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE082D2CCFE17A004A6808 /* AppDelegate.swift */; };
+		C6AE08302CCFE17A004A6808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE082F2CCFE17A004A6808 /* ViewController.swift */; };
+		C6AE08322CCFE17B004A6808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AE08312CCFE17B004A6808 /* Assets.xcassets */; };
+		C6AE08352CCFE17B004A6808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AE08332CCFE17B004A6808 /* Main.storyboard */; };
+		C6AE08402CCFE17C004A6808 /* MetroTunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE083F2CCFE17C004A6808 /* MetroTunerTests.swift */; };
+		C6AE084A2CCFE17C004A6808 /* MetroTunerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE08492CCFE17C004A6808 /* MetroTunerUITests.swift */; };
+		C6AE084C2CCFE17C004A6808 /* MetroTunerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE084B2CCFE17C004A6808 /* MetroTunerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6AE083C2CCFE17C004A6808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AE08222CCFE17A004A6808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AE08292CCFE17A004A6808;
+			remoteInfo = MetroTuner;
+		};
+		C6AE08462CCFE17C004A6808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AE08222CCFE17A004A6808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AE08292CCFE17A004A6808;
+			remoteInfo = MetroTuner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6AE082A2CCFE17A004A6808 /* MetroTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AE082D2CCFE17A004A6808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6AE082F2CCFE17A004A6808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6AE08312CCFE17B004A6808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6AE08342CCFE17B004A6808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6AE08362CCFE17B004A6808 /* MetroTuner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetroTuner.entitlements; sourceTree = "<group>"; };
+		C6AE083B2CCFE17C004A6808 /* MetroTunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroTunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AE083F2CCFE17C004A6808 /* MetroTunerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTunerTests.swift; sourceTree = "<group>"; };
+		C6AE08452CCFE17C004A6808 /* MetroTunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroTunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AE08492CCFE17C004A6808 /* MetroTunerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTunerUITests.swift; sourceTree = "<group>"; };
+		C6AE084B2CCFE17C004A6808 /* MetroTunerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTunerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6AE08272CCFE17A004A6808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08382CCFE17C004A6808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08422CCFE17C004A6808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6AE08212CCFE17A004A6808 = {
+			isa = PBXGroup;
+			children = (
+				C6AE082C2CCFE17A004A6808 /* MetroTuner */,
+				C6AE083E2CCFE17C004A6808 /* MetroTunerTests */,
+				C6AE08482CCFE17C004A6808 /* MetroTunerUITests */,
+				C6AE082B2CCFE17A004A6808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6AE082B2CCFE17A004A6808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6AE082A2CCFE17A004A6808 /* MetroTuner.app */,
+				C6AE083B2CCFE17C004A6808 /* MetroTunerTests.xctest */,
+				C6AE08452CCFE17C004A6808 /* MetroTunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6AE082C2CCFE17A004A6808 /* MetroTuner */ = {
+			isa = PBXGroup;
+			children = (
+				C6AE082D2CCFE17A004A6808 /* AppDelegate.swift */,
+				C6AE082F2CCFE17A004A6808 /* ViewController.swift */,
+				C6AE08312CCFE17B004A6808 /* Assets.xcassets */,
+				C6AE08332CCFE17B004A6808 /* Main.storyboard */,
+				C6AE08362CCFE17B004A6808 /* MetroTuner.entitlements */,
+			);
+			path = MetroTuner;
+			sourceTree = "<group>";
+		};
+		C6AE083E2CCFE17C004A6808 /* MetroTunerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AE083F2CCFE17C004A6808 /* MetroTunerTests.swift */,
+			);
+			path = MetroTunerTests;
+			sourceTree = "<group>";
+		};
+		C6AE08482CCFE17C004A6808 /* MetroTunerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AE08492CCFE17C004A6808 /* MetroTunerUITests.swift */,
+				C6AE084B2CCFE17C004A6808 /* MetroTunerUITestsLaunchTests.swift */,
+			);
+			path = MetroTunerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6AE08292CCFE17A004A6808 /* MetroTuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AE084F2CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTuner" */;
+			buildPhases = (
+				C6AE08262CCFE17A004A6808 /* Sources */,
+				C6AE08272CCFE17A004A6808 /* Frameworks */,
+				C6AE08282CCFE17A004A6808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroTuner;
+			productName = MetroTuner;
+			productReference = C6AE082A2CCFE17A004A6808 /* MetroTuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6AE083A2CCFE17C004A6808 /* MetroTunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AE08522CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTunerTests" */;
+			buildPhases = (
+				C6AE08372CCFE17C004A6808 /* Sources */,
+				C6AE08382CCFE17C004A6808 /* Frameworks */,
+				C6AE08392CCFE17C004A6808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AE083D2CCFE17C004A6808 /* PBXTargetDependency */,
+			);
+			name = MetroTunerTests;
+			productName = MetroTunerTests;
+			productReference = C6AE083B2CCFE17C004A6808 /* MetroTunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6AE08442CCFE17C004A6808 /* MetroTunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AE08552CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTunerUITests" */;
+			buildPhases = (
+				C6AE08412CCFE17C004A6808 /* Sources */,
+				C6AE08422CCFE17C004A6808 /* Frameworks */,
+				C6AE08432CCFE17C004A6808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AE08472CCFE17C004A6808 /* PBXTargetDependency */,
+			);
+			name = MetroTunerUITests;
+			productName = MetroTunerUITests;
+			productReference = C6AE08452CCFE17C004A6808 /* MetroTunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6AE08222CCFE17A004A6808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C6AE08292CCFE17A004A6808 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6AE083A2CCFE17C004A6808 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6AE08292CCFE17A004A6808;
+					};
+					C6AE08442CCFE17C004A6808 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6AE08292CCFE17A004A6808;
+					};
+				};
+			};
+			buildConfigurationList = C6AE08252CCFE17A004A6808 /* Build configuration list for PBXProject "MetroTuner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6AE08212CCFE17A004A6808;
+			productRefGroup = C6AE082B2CCFE17A004A6808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6AE08292CCFE17A004A6808 /* MetroTuner */,
+				C6AE083A2CCFE17C004A6808 /* MetroTunerTests */,
+				C6AE08442CCFE17C004A6808 /* MetroTunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6AE08282CCFE17A004A6808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AE08322CCFE17B004A6808 /* Assets.xcassets in Resources */,
+				C6AE08352CCFE17B004A6808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08392CCFE17C004A6808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08432CCFE17C004A6808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6AE08262CCFE17A004A6808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AE08302CCFE17A004A6808 /* ViewController.swift in Sources */,
+				C6AE082E2CCFE17A004A6808 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08372CCFE17C004A6808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AE08402CCFE17C004A6808 /* MetroTunerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AE08412CCFE17C004A6808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AE084A2CCFE17C004A6808 /* MetroTunerUITests.swift in Sources */,
+				C6AE084C2CCFE17C004A6808 /* MetroTunerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6AE083D2CCFE17C004A6808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AE08292CCFE17A004A6808 /* MetroTuner */;
+			targetProxy = C6AE083C2CCFE17C004A6808 /* PBXContainerItemProxy */;
+		};
+		C6AE08472CCFE17C004A6808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AE08292CCFE17A004A6808 /* MetroTuner */;
+			targetProxy = C6AE08462CCFE17C004A6808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6AE08332CCFE17B004A6808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AE08342CCFE17B004A6808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6AE084D2CCFE17C004A6808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6AE084E2CCFE17C004A6808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C6AE08502CCFE17C004A6808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetroTuner/MetroTuner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6AE08512CCFE17C004A6808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetroTuner/MetroTuner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6AE08532CCFE17C004A6808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroTuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetroTuner";
+			};
+			name = Debug;
+		};
+		C6AE08542CCFE17C004A6808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroTuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetroTuner";
+			};
+			name = Release;
+		};
+		C6AE08562CCFE17C004A6808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetroTuner;
+			};
+			name = Debug;
+		};
+		C6AE08572CCFE17C004A6808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MetroTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetroTuner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6AE08252CCFE17A004A6808 /* Build configuration list for PBXProject "MetroTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AE084D2CCFE17C004A6808 /* Debug */,
+				C6AE084E2CCFE17C004A6808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AE084F2CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AE08502CCFE17C004A6808 /* Debug */,
+				C6AE08512CCFE17C004A6808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AE08522CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AE08532CCFE17C004A6808 /* Debug */,
+				C6AE08542CCFE17C004A6808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AE08552CCFE17C004A6808 /* Build configuration list for PBXNativeTarget "MetroTunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AE08562CCFE17C004A6808 /* Debug */,
+				C6AE08572CCFE17C004A6808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6AE08222CCFE17A004A6808 /* Project object */;
+}
