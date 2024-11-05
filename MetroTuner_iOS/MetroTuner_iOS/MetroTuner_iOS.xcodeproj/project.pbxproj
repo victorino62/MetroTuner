@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B45AC62CDAC0C400FEE45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45AC52CDAC0C400FEE45D /* AppDelegate.swift */; };
+		C6B45AC82CDAC0C400FEE45D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45AC72CDAC0C400FEE45D /* SceneDelegate.swift */; };
+		C6B45ACA2CDAC0C400FEE45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45AC92CDAC0C400FEE45D /* ViewController.swift */; };
+		C6B45ACD2CDAC0C400FEE45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B45ACB2CDAC0C400FEE45D /* Main.storyboard */; };
+		C6B45ACF2CDAC0C500FEE45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B45ACE2CDAC0C500FEE45D /* Assets.xcassets */; };
+		C6B45AD22CDAC0C500FEE45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B45AD02CDAC0C500FEE45D /* LaunchScreen.storyboard */; };
+		C6B45ADD2CDAC0C500FEE45D /* MetroTuner_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45ADC2CDAC0C500FEE45D /* MetroTuner_iOSTests.swift */; };
+		C6B45AE72CDAC0C500FEE45D /* MetroTuner_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45AE62CDAC0C500FEE45D /* MetroTuner_iOSUITests.swift */; };
+		C6B45AE92CDAC0C500FEE45D /* MetroTuner_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B45AE82CDAC0C500FEE45D /* MetroTuner_iOSUITestsLaunchTests.swift */; };
+		C6B45AF62CDAC21C00FEE45D /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6B45AF52CDAC21C00FEE45D /* click.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B45AD92CDAC0C500FEE45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B45ABA2CDAC0C400FEE45D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B45AC12CDAC0C400FEE45D;
+			remoteInfo = MetroTuner_iOS;
+		};
+		C6B45AE32CDAC0C500FEE45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B45ABA2CDAC0C400FEE45D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B45AC12CDAC0C400FEE45D;
+			remoteInfo = MetroTuner_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B45AC22CDAC0C400FEE45D /* MetroTuner_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroTuner_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B45AC52CDAC0C400FEE45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B45AC72CDAC0C400FEE45D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6B45AC92CDAC0C400FEE45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B45ACC2CDAC0C400FEE45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B45ACE2CDAC0C500FEE45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B45AD12CDAC0C500FEE45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B45AD32CDAC0C500FEE45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B45AD82CDAC0C500FEE45D /* MetroTuner_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroTuner_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B45ADC2CDAC0C500FEE45D /* MetroTuner_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTuner_iOSTests.swift; sourceTree = "<group>"; };
+		C6B45AE22CDAC0C500FEE45D /* MetroTuner_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroTuner_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B45AE62CDAC0C500FEE45D /* MetroTuner_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTuner_iOSUITests.swift; sourceTree = "<group>"; };
+		C6B45AE82CDAC0C500FEE45D /* MetroTuner_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTuner_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6B45AF52CDAC21C00FEE45D /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B45ABF2CDAC0C400FEE45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45AD52CDAC0C500FEE45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45ADF2CDAC0C500FEE45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B45AB92CDAC0C400FEE45D = {
+			isa = PBXGroup;
+			children = (
+				C6B45AC42CDAC0C400FEE45D /* MetroTuner_iOS */,
+				C6B45ADB2CDAC0C500FEE45D /* MetroTuner_iOSTests */,
+				C6B45AE52CDAC0C500FEE45D /* MetroTuner_iOSUITests */,
+				C6B45AC32CDAC0C400FEE45D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B45AC32CDAC0C400FEE45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B45AC22CDAC0C400FEE45D /* MetroTuner_iOS.app */,
+				C6B45AD82CDAC0C500FEE45D /* MetroTuner_iOSTests.xctest */,
+				C6B45AE22CDAC0C500FEE45D /* MetroTuner_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B45AC42CDAC0C400FEE45D /* MetroTuner_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C6B45AC52CDAC0C400FEE45D /* AppDelegate.swift */,
+				C6B45AC72CDAC0C400FEE45D /* SceneDelegate.swift */,
+				C6B45AC92CDAC0C400FEE45D /* ViewController.swift */,
+				C6B45ACB2CDAC0C400FEE45D /* Main.storyboard */,
+				C6B45AF52CDAC21C00FEE45D /* click.wav */,
+				C6B45ACE2CDAC0C500FEE45D /* Assets.xcassets */,
+				C6B45AD02CDAC0C500FEE45D /* LaunchScreen.storyboard */,
+				C6B45AD32CDAC0C500FEE45D /* Info.plist */,
+			);
+			path = MetroTuner_iOS;
+			sourceTree = "<group>";
+		};
+		C6B45ADB2CDAC0C500FEE45D /* MetroTuner_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B45ADC2CDAC0C500FEE45D /* MetroTuner_iOSTests.swift */,
+			);
+			path = MetroTuner_iOSTests;
+			sourceTree = "<group>";
+		};
+		C6B45AE52CDAC0C500FEE45D /* MetroTuner_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B45AE62CDAC0C500FEE45D /* MetroTuner_iOSUITests.swift */,
+				C6B45AE82CDAC0C500FEE45D /* MetroTuner_iOSUITestsLaunchTests.swift */,
+			);
+			path = MetroTuner_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B45AC12CDAC0C400FEE45D /* MetroTuner_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B45AEC2CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOS" */;
+			buildPhases = (
+				C6B45ABE2CDAC0C400FEE45D /* Sources */,
+				C6B45ABF2CDAC0C400FEE45D /* Frameworks */,
+				C6B45AC02CDAC0C400FEE45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroTuner_iOS;
+			productName = MetroTuner_iOS;
+			productReference = C6B45AC22CDAC0C400FEE45D /* MetroTuner_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B45AD72CDAC0C500FEE45D /* MetroTuner_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B45AEF2CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOSTests" */;
+			buildPhases = (
+				C6B45AD42CDAC0C500FEE45D /* Sources */,
+				C6B45AD52CDAC0C500FEE45D /* Frameworks */,
+				C6B45AD62CDAC0C500FEE45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B45ADA2CDAC0C500FEE45D /* PBXTargetDependency */,
+			);
+			name = MetroTuner_iOSTests;
+			productName = MetroTuner_iOSTests;
+			productReference = C6B45AD82CDAC0C500FEE45D /* MetroTuner_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6B45AE12CDAC0C500FEE45D /* MetroTuner_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B45AF22CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOSUITests" */;
+			buildPhases = (
+				C6B45ADE2CDAC0C500FEE45D /* Sources */,
+				C6B45ADF2CDAC0C500FEE45D /* Frameworks */,
+				C6B45AE02CDAC0C500FEE45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B45AE42CDAC0C500FEE45D /* PBXTargetDependency */,
+			);
+			name = MetroTuner_iOSUITests;
+			productName = MetroTuner_iOSUITests;
+			productReference = C6B45AE22CDAC0C500FEE45D /* MetroTuner_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B45ABA2CDAC0C400FEE45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C6B45AC12CDAC0C400FEE45D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6B45AD72CDAC0C500FEE45D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6B45AC12CDAC0C400FEE45D;
+					};
+					C6B45AE12CDAC0C500FEE45D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6B45AC12CDAC0C400FEE45D;
+					};
+				};
+			};
+			buildConfigurationList = C6B45ABD2CDAC0C400FEE45D /* Build configuration list for PBXProject "MetroTuner_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B45AB92CDAC0C400FEE45D;
+			productRefGroup = C6B45AC32CDAC0C400FEE45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B45AC12CDAC0C400FEE45D /* MetroTuner_iOS */,
+				C6B45AD72CDAC0C500FEE45D /* MetroTuner_iOSTests */,
+				C6B45AE12CDAC0C500FEE45D /* MetroTuner_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B45AC02CDAC0C400FEE45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B45AD22CDAC0C500FEE45D /* LaunchScreen.storyboard in Resources */,
+				C6B45ACF2CDAC0C500FEE45D /* Assets.xcassets in Resources */,
+				C6B45AF62CDAC21C00FEE45D /* click.wav in Resources */,
+				C6B45ACD2CDAC0C400FEE45D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45AD62CDAC0C500FEE45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45AE02CDAC0C500FEE45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B45ABE2CDAC0C400FEE45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B45ACA2CDAC0C400FEE45D /* ViewController.swift in Sources */,
+				C6B45AC62CDAC0C400FEE45D /* AppDelegate.swift in Sources */,
+				C6B45AC82CDAC0C400FEE45D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45AD42CDAC0C500FEE45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B45ADD2CDAC0C500FEE45D /* MetroTuner_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45ADE2CDAC0C500FEE45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B45AE72CDAC0C500FEE45D /* MetroTuner_iOSUITests.swift in Sources */,
+				C6B45AE92CDAC0C500FEE45D /* MetroTuner_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B45ADA2CDAC0C500FEE45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B45AC12CDAC0C400FEE45D /* MetroTuner_iOS */;
+			targetProxy = C6B45AD92CDAC0C500FEE45D /* PBXContainerItemProxy */;
+		};
+		C6B45AE42CDAC0C500FEE45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B45AC12CDAC0C400FEE45D /* MetroTuner_iOS */;
+			targetProxy = C6B45AE32CDAC0C500FEE45D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B45ACB2CDAC0C400FEE45D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B45ACC2CDAC0C400FEE45D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B45AD02CDAC0C500FEE45D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B45AD12CDAC0C500FEE45D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B45AEA2CDAC0C500FEE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6B45AEB2CDAC0C500FEE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B45AED2CDAC0C500FEE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetroTuner_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B45AEE2CDAC0C500FEE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetroTuner_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6B45AF02CDAC0C500FEE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroTuner_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetroTuner_iOS";
+			};
+			name = Debug;
+		};
+		C6B45AF12CDAC0C500FEE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroTuner_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetroTuner_iOS";
+			};
+			name = Release;
+		};
+		C6B45AF32CDAC0C500FEE45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroTuner_iOS;
+			};
+			name = Debug;
+		};
+		C6B45AF42CDAC0C500FEE45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKU46D75ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MetroTuner-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroTuner_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B45ABD2CDAC0C400FEE45D /* Build configuration list for PBXProject "MetroTuner_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B45AEA2CDAC0C500FEE45D /* Debug */,
+				C6B45AEB2CDAC0C500FEE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B45AEC2CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B45AED2CDAC0C500FEE45D /* Debug */,
+				C6B45AEE2CDAC0C500FEE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B45AEF2CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B45AF02CDAC0C500FEE45D /* Debug */,
+				C6B45AF12CDAC0C500FEE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B45AF22CDAC0C500FEE45D /* Build configuration list for PBXNativeTarget "MetroTuner_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B45AF32CDAC0C500FEE45D /* Debug */,
+				C6B45AF42CDAC0C500FEE45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B45ABA2CDAC0C400FEE45D /* Project object */;
+}
